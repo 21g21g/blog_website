@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body{
+    height: 100vh;
+
+}
+.ql-editor{
+    font-size: 1.05rem;
+}
+@layer components{
+    .table-row{
+        @apply bg-white dark:border-gray-700 dark:bg-gray-800
+    }
+ 
+
+}
